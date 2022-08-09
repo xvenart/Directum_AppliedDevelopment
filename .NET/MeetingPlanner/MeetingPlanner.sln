@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingPlanner", "MeetingPlanner\MeetingPlanner.csproj", "{2BEEA917-9C22-45CA-A6AF-7ECD2EE9F387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingPlanner.BusinessLayer", "MeetingPlanner.BusinessLayer\MeetingPlanner.BusinessLayer.csproj", "{061E840F-F497-497E-9C2C-A09C53E4AF4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BEEA917-9C22-45CA-A6AF-7ECD2EE9F387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BEEA917-9C22-45CA-A6AF-7ECD2EE9F387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BEEA917-9C22-45CA-A6AF-7ECD2EE9F387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BEEA917-9C22-45CA-A6AF-7ECD2EE9F387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061E840F-F497-497E-9C2C-A09C53E4AF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061E840F-F497-497E-9C2C-A09C53E4AF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061E840F-F497-497E-9C2C-A09C53E4AF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061E840F-F497-497E-9C2C-A09C53E4AF4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67D5F606-3AF2-4514-821E-B917818C1285}
+	EndGlobalSection
+EndGlobal
