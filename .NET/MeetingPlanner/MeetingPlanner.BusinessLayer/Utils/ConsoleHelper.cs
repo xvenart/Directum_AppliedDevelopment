@@ -129,7 +129,8 @@ namespace MeetingPlanner.BusinessLayer.Utils
 
 			Console.WriteLine($"Enter notification time (min):");
 			string notificationTimeString = Console.ReadLine();
-			if (int.TryParse(notificationTimeString, out int noticePeriodMin))
+			int noticePeriodMin = default;
+			if (string.IsNullOrEmpty(notificationTimeString) || int.TryParse(notificationTimeString, out noticePeriodMin))
 			{
 				if (noticePeriodMin < 0)
 				{
@@ -268,7 +269,7 @@ namespace MeetingPlanner.BusinessLayer.Utils
 		/// <returns>List of meetings per day</returns>
 		public static List<Meeting> GetMeetingsPerDay(List<Meeting> meetings)
 		{
-			Console.WriteLine("Enter date of meetings:");
+			Console.WriteLine("Enter date of meetings (Format: yyyy-MM-dd):");
 			var periodStartString = Console.ReadLine();
 			DateTime.TryParse(periodStartString, out DateTime periodStart);
 
